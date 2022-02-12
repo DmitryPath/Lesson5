@@ -1,0 +1,178 @@
+/* &display=swap */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato:wght@400;700;900&family=Mulish:wght@300&family=Rubik+Mono+One&family=Rubik:ital,wght@1,500&family=Russo+One&display=swap");
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* МАКЕТ ДОМАШКИ НА ВОЛЬНУЮ ТЕМУ (index) */
+.h1 {
+	padding-top: 20px;
+	padding-bottom: 155px;
+	margin-top: -240px;
+	color: #2941a8;
+	font-family: "Rubik", sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 36px;
+	text-align: center;
+	overflow: visible;
+	text-shadow: 3px 3px 4px white;
+}
+/* Уважаемый ментор, заголовок специально залез на импровизированную шапку. Если спросите: Зачем? - Я отвечу: А потому что могу. Логичного ответа у меня нет :( */
+/* Мейн */
+[class*="text"] {
+	color: black;
+	font-family: "Mulish", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	padding-right: 30px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+	overflow: auto;
+	/* ВАЖНО ПОМЕНЯТЬ ЦВЕТ */
+}
+.text1 {
+	color: rgb(104, 55, 9);
+	font-size: 20px;
+	padding: 0px 50px 25px 50px;
+	overflow: auto;
+	text-shadow: 10px 10px 20px grey;
+	/* ИСПРАВИТЬ!!! */
+}
+.menu1 {
+	color: green;
+	font-family: "Russo One", sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	text-align: right;
+	text-decoration: underline;
+	padding: 0px 50px 20px 0px;
+}
+#m21 {
+	color: lawngreen;
+	padding: 0px 50px 0px 0px;
+}
+#m22 {
+	color: lawngreen;
+	padding: 0px 50px 0px 0px;
+}
+.h22 {
+	color: #28292c;
+	font-family: "Rubik", sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 36px;
+	text-align: center;
+	padding: 0px 100px 20px 100px;
+}
+.ramka1 {
+	color: orangered;
+	font-family: "Rubik Mono One", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: right;
+	padding-right: auto;
+	padding-bottom: 30px;
+	padding-left: 100px;
+	min-width: 300px;
+	min-height: 100px;
+	overflow: auto;
+	text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.39);
+}
+.opisanie {
+	font-family: "Pangolin";
+	font-weight: 400;
+	color: rgb(36, 11, 129);
+	font-size: 20px;
+	padding: 0px 50px 25px 20px;
+	overflow: auto;
+	text-align: left;
+}
+.text3 span {
+	color: red;
+	font-family: "Russo One", sans-serif;
+	font-weight: 400;
+}
+#golda {
+	color: green;
+	font-family: "Comfortaa", cursive;
+	font-weight: 400;
+	font-size: 20px;
+	text-decoration: line-through;
+	text-align: right;
+	padding-right: auto;
+	padding-bottom: 30px;
+	padding-left: 100px;
+}
+.konteyner {
+	max-height: 400px;
+	max-width: 500px;
+	overflow: scroll;
+	margin: 0px 0px 30px auto;
+}
+.h33 {
+	color: #28292c;
+	font-family: "Rubik Mono One", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	text-decoration: overline;
+	padding: 0px 0px 20px 0px;
+}
+
+/* Блок макета фигма */
+.header h1 {
+	color: #1e212c;
+	font-family: "Lato", "Arial", "sans-serif";
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	text-align: left;
+	max-width: 810px;
+	margin-right: auto;
+	margin-bottom: 92.7px;
+	margin-left: auto;
+}
+.main {
+	font-family: "Lato", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: 25.6px;
+	max-width: 810px;
+	margin: 0 auto;
+}
+.pict {
+	margin-bottom: 60px;
+}
+.block {
+	color: #1e212c;
+	font-family: "Lato", "Arial", "sans-serif";
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 40px;
+}
+.words > p {
+	margin-bottom: 20px;
+}
+.otstup {
+	font-weight: 700;
+	padding-left: 54px;
+	font-size: 20px;
+	margin-bottom: 48px;
+}
+.words1 {
+	margin-bottom: 24px;
+}
+.spisochek {
+	text-align: left;
+	margin-bottom: 24px;
+	padding-left: 32px;
+}
